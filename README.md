@@ -85,9 +85,9 @@ Instead of manually creating cloud resources from the AWS Console, the complete 
 | DynamoDB | State Locking |
 | IAM | Access Control |
 | GitHub | Version Control |
+# 📂 Project Structure
 
-
-# Project Structure
+```text
 terraform-aws-iac-project/
 │
 ├── modules/
@@ -100,12 +100,13 @@ terraform-aws-iac-project/
 │   └── backend-setup.tf
 │
 ├── main.tf
+├── provider.tf
 ├── variables.tf
 ├── outputs.tf
-├── provider.tf
 ├── terraform.tfvars
-├── README.md
-└── .gitignore
+├── .gitignore
+└── README.md
+```
 
 
 # 🔥 Core Features
