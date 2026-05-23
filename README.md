@@ -87,8 +87,7 @@ Instead of manually creating cloud resources from the AWS Console, the complete 
 | GitHub | Version Control |
 
 
-# 📂 Project Structure
-
+# Project Structure
 terraform-aws-iac-project/
 │
 ├── modules/
@@ -101,13 +100,12 @@ terraform-aws-iac-project/
 │   └── backend-setup.tf
 │
 ├── main.tf
-├── provider.tf
 ├── variables.tf
 ├── outputs.tf
+├── provider.tf
 ├── terraform.tfvars
-├── .gitignore
-└── README.md
-```
+├── README.md
+└── .gitignore
 
 
 # 🔥 Core Features
